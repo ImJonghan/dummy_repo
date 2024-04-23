@@ -4,7 +4,8 @@ on:
     workflow_dispatch
 
 jobs:
-    steps:
-    - name: Build Project
-        run:
-            echo "build Project"
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Build Project
+                run: echo "build Project"
