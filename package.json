@@ -1,0 +1,21 @@
+{
+    "name": "temp-project",
+    "version": "1.0.0",
+    "description": "A temporary project for demonstration purposes.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yourusername/temp-project.git"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/yourusername/temp-project/issues"
+    },
+    "homepage": "https://github.com/yourusername/temp-project#readme"
+  }
+  
