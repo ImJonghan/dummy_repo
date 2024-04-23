@@ -1,11 +1,10 @@
----
 name: My Test
 on:
-    workflow_dispatch
+  workflow_dispatch:
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Build Project
-              run: echo "build Project"
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Project
+        run: echo "Build Project"
