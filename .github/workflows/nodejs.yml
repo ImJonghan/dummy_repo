@@ -1,7 +1,11 @@
 ---
-name: My Test
+name: My Test1
 on:
     workflow_dispatch
+        inputs:
+            description: 'Tag to deploy'
+            required: true
+            default: '1.0.0'
 
 jobs:
     build:
